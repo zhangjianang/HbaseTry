@@ -1,0 +1,227 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<project xmlns="http://maven.apache.org/POM/4.0.0"-->
+         <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+         <!--xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">-->
+    <!--<parent>-->
+        <!--<artifactId>ienterprise</artifactId>-->
+        <!--<groupId>com.rkhd.ienterprise</groupId>-->
+        <!--<version>4.5.8</version>-->
+    <!--</parent>-->
+    <!--<modelVersion>4.0.0</modelVersion>-->
+    <!--<artifactId>base-smartsearch-service</artifactId>-->
+    <!--<version>4.5.1</version>-->
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>Sonatype</id>-->
+            <!--<name>Sonatype</name>-->
+            <!--<url>https://oss.sonatype.org/content/repositories/releases/</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
+
+    <!--<dependencyManagement>-->
+        <!--<dependencies>-->
+            <!--&lt;!&ndash;spring dependency version Management &ndash;&gt;-->
+            <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>commons-digester</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>commons-digester</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>2.0</version>&ndash;&gt;-->
+            <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
+            <!--<dependency>-->
+                <!--<groupId>org.springframework</groupId>-->
+                <!--<artifactId>spring-core</artifactId>-->
+                <!--<version>2.5.6.jre8</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>org.springframework</groupId>-->
+                <!--<artifactId>spring</artifactId>-->
+                <!--<version>2.5.6.jre8</version>-->
+            <!--</dependency>-->
+        <!--</dependencies>-->
+    <!--</dependencyManagement>-->
+    <!--<dependencies>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>spring-core</artifactId>-->
+            <!--<version>2.5.6.jre8</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>spring-beans</artifactId>-->
+            <!--<version>2.5.6</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>spring-context</artifactId>-->
+            <!--<version>2.5.6</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>spring-aop</artifactId>-->
+            <!--<version>2.5.6</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>spring-orm</artifactId>-->
+            <!--<version>2.5.6</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>spring-test</artifactId>-->
+            <!--<version>2.5.6</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.rkhd.ienterprise</groupId>-->
+            <!--<artifactId>base-core</artifactId>-->
+            <!--<version>4.5.25</version>-->
+        <!--</dependency>-->
+
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient &ndash;&gt;-->
+        <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>org.apache.httpcomponents</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>httpclient</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>4.3.1</version>&ndash;&gt;-->
+        <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
+
+
+
+
+        <!--<dependency>-->
+            <!--<groupId>org.antlr</groupId>-->
+            <!--<artifactId>antlr4-runtime</artifactId>-->
+            <!--<version>4.5</version>-->
+        <!--</dependency>-->
+
+
+
+
+
+
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.lucene/lucene-queryparser &ndash;&gt;-->
+
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.lucene/lucene-spatial &ndash;&gt;-->
+
+
+        <!--<dependency>-->
+            <!--<groupId>scallop</groupId>-->
+            <!--<artifactId>scallop-binding-rmi-runtime</artifactId>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>com.quantum</groupId>-->
+            <!--<artifactId>quantum-auth</artifactId>-->
+            <!--<version>1.0</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.slf4j</groupId>-->
+            <!--<artifactId>slf4j-api</artifactId>-->
+            <!--<version>1.6.1</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.slf4j</groupId>-->
+            <!--<artifactId>slf4j-log4j12</artifactId>-->
+            <!--<version>1.6.1</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>log4j</groupId>-->
+            <!--<artifactId>log4j</artifactId>-->
+            <!--<version>1.2.16</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.apache.logging.log4j</groupId>-->
+            <!--<artifactId>log4j-api</artifactId>-->
+            <!--<version>2.6.2</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.logging.log4j</groupId>-->
+            <!--<artifactId>log4j-core</artifactId>-->
+            <!--<version>2.6.2</version>-->
+        <!--</dependency>-->
+
+
+        <!--<dependency>-->
+            <!--<groupId>junit</groupId>-->
+            <!--<artifactId>junit</artifactId>-->
+            <!--<version>4.5</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+        <!--&lt;!&ndash;<groupId>org.apache.lucene</groupId>&ndash;&gt;-->
+        <!--&lt;!&ndash;<artifactId>lucene-core</artifactId>&ndash;&gt;-->
+        <!--&lt;!&ndash;<version>5.2.1</version>&ndash;&gt;-->
+        <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.google.guava</groupId>-->
+            <!--<artifactId>guava</artifactId>-->
+            <!--<version>18.0</version>-->
+        <!--</dependency>-->
+
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/com.sun.jna/jna &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.sun.jna</groupId>-->
+            <!--<artifactId>jna</artifactId>-->
+            <!--<version>3.0.5</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>com.fasterxml.jackson.core</groupId>-->
+            <!--<artifactId>jackson-databind</artifactId>-->
+            <!--<version>2.8.5</version>-->
+        <!--</dependency>-->
+
+    <!--</dependencies>-->
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-compiler-plugin</artifactId>-->
+                <!--<configuration>-->
+                    <!--<source>1.6</source>-->
+                    <!--<target>1.6</target>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+            <!--<plugin>-->
+                <!--<artifactId>maven-assembly-plugin</artifactId>-->
+                <!--<configuration>-->
+                    <!--<finalName>${artifactId}</finalName>-->
+                    <!--<descriptors>-->
+                        <!--<descriptor>src/main/assembly/distribution.xml</descriptor>-->
+                    <!--</descriptors>-->
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>make-assembly</id>-->
+                        <!--<phase>package</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>single</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-deploy-plugin</artifactId>-->
+                <!--<version>2.5</version>-->
+                <!--<configuration>-->
+                    <!--<skip>true</skip>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+            <!--<plugin>-->
+                <!--<groupId>org.codehaus.mojo</groupId>-->
+                <!--<artifactId>findbugs-maven-plugin</artifactId>-->
+                <!--<version>3.0.0</version>-->
+                <!--<configuration>-->
+                    <!--<excludeFilterFile>/findbugs-exclude.xml</excludeFilterFile>-->
+                    <!--&lt;!&ndash;<includeFilterFile>/findbugs-include.xml</includeFilterFile>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<onlyAnalyze>com.rkhd.ienterprise.nsearch.service.impl.config.*</onlyAnalyze>&ndash;&gt;-->
+                    <!--<effort>Default</effort>-->
+                    <!--<findbugsXmlOutput>true</findbugsXmlOutput>-->
+                    <!--<xmlOutput>true</xmlOutput>-->
+                    <!--<findbugsXmlOutputDirectory>target/site</findbugsXmlOutputDirectory>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
+<!--</project>-->
